@@ -1,101 +1,108 @@
 body{
+  font-family: 'Oswald', sans-serif;
   margin: 0;
-  font-family: 'PT Sans Caption', sans-serif;
-  font-family: 'PT Sans Narrow', sans-serif;
-}
-section{
-  display: flex;
-  margin-bottom: 0px;
-  height: 500px;
-  padding-bottom: 150px;
-}
-.top-banner{
-  background-image: url(images/shapes/Frame\ 58.jpg);
-  background-repeat: no-repeat;
-  
-}
-.about-me{
-  background-image: url(images/shapes/7.png);
-  background-repeat: no-repeat;
-  
-}
-
-.half-width{
-  width: 40%;
-  margin-left: 5%;
-  padding-left: 2%;
-}
-.half-width img{
-  height: 100vh;
-  width: 100%;
-  margin-top: 30px;
-
-}
-.secnond-half-width{
-
-  width: 50%;
-  margin-left: 5%;
-  margin-bottom: 50%;
-}
-.secnond-half-width img{
-  width: 70%;
-  margin-top: 46%;
-  padding-left: 25%;
-}
-span{
-  
-  color: rgba(251,147,74,255);
+  padding: 0;
 }
 h1{
-  margin-top: 130px;
-  margin-left: 45px;
-  font-size: 70px;
+  font-size: 50px;
 }
-h2{
-  margin-left: 200px;
+.section-top{
+  display: flex;
+  margin-top: 20px;
+}
+.skip-color{
+color: orange;
+}
+.half-width{
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img{
+  width: 100%;
+}
+.text{
+  margin-top: 10%;
+  padding-top: 40px;
+}
+.half-width p{
+  margin-bottom: 10%;
+ 
+}
+.order-food{
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(orange,tomato);
+  padding: 15px 45px;
+  border-radius: 60px;
+  box-shadow:10px 10px 20px orange;
+}
 
+.second-row{
+  display:flex;
+  background-image: url(img/7.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
-.frist-text{
-  margin-left: 50px;
-  margin-bottom: 50px;
+.second-col{
+  width: 50%;
+  padding-left: 5%;
+}
+.second-col img{
+  width: 60%;
 }
 .second-text{
-  margin-left: 200px;
-  margin-bottom: 50px;
-  text-align: justify;
-  margin-right: 20px;
-
+  margin-top: 5%;
 }
-
-.third-text{
+.second-col p{
+  margin-bottom: 10%;
+}
+.contact-btn{
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(orange,tomato);
+  padding: 15px 45px;
+  border-radius: 60px;
+  box-shadow:10px 10px 20px orange;
+}
+h2{
   text-align: center;
-  width: full;
+  font-size: 35px;
+}
+.out-p{
+  width: 500px;
+  text-align: center;
+  margin-left: 30%;
+  margin-bottom: 5%;
 }
 
-
-.anchor-button{
-
-  text-decoration: none;
-  color: white;
-  background: linear-gradient(45deg,rgba(251,144,73,255),rgba(253,78,48,255));
-  padding: 15px 45px;
-  border-radius: 60px;
-  margin-left: 53px;
-  margin-top: 60px;
-
+.third-row{
+  display: flex;
+  margin-left: 2%;
 }
-.contact-me{
-
-  text-decoration: none;
-  color: white;
-  background: linear-gradient(45deg,rgba(251,144,73,255),rgba(253,78,48,255));
-  padding: 15px 45px;
-  border-radius: 60px;
-  margin-left: 200px;
+.third-col{
+  width: 28%;
+  margin-left: 4%;
+}
+.third-elm{
+  border: 15px solid white;
+  border-radius: 30px;
+  box-shadow: 10px 10px 40px gray;
+}
+.third-elm img{
+  width: 100%;
+}
+footer{
+  text-align: center;
   margin-top: 100px;
-
+  background-color: black;
+  padding: 20px;
 }
-.my-recipies{
-  padding-top: -200px !important;
-
+footer span{
+  color: orange;
+}
+footer h3{
+  color: lightblue;
+}
+footer p{
+  color: wheat;
 }
